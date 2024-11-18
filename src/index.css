@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
+
+.font-arabic {
+  font-family: 'Amiri', serif;
+}
+
+body {
+  @apply text-gray-800;
+}
